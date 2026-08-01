@@ -1,0 +1,26 @@
+aws_region   = "eu-central-1"
+project_name = "lab12-frankfurt"
+environment  = "lab"
+
+bedrock_model_id = "eu.anthropic.claude-haiku-4-5-20251001-v1:0"
+
+alert_email = null
+
+log_retention_days       = 7
+unused_token_minutes     = 10
+unused_token_schedule    = "rate(5 minutes)"
+waf_lookback_minutes     = 10
+waf_max_log_events       = 25
+waf_rate_limit           = 100
+correlation_window_minutes = 60
+minimum_event_count        = 3
+max_correlation_events     = 500
+report_period_hours        = 24
+max_report_items_per_table = 5000
+
+organization_name = "Frankfurt Security Lab"
+report_title       = "Executive Security Report"
+
+additional_tags = {
+  Course = "Class 7 SOAR"
+}

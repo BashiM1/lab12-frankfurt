@@ -1,0 +1,17 @@
+.DS_Store
+.idea/
+.vscode/
+.terraform/
+.venv/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.zip
+build/
+terraform.tfvars
+demo.env
+.env
+__pycache__/
+*.py[cod]
+*.md
+!README.md
