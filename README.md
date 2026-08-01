@@ -114,7 +114,6 @@ aws lambda invoke --region eu-central-1 \
 
 - `terraform/` contains the deployable infrastructure and Lambda source.
 - `provided/` contains the teacher-supplied code used by the lab.
-- `reference/fixed/` keeps the corrected course integration files together.
 - `assets/` contains the architecture diagram used above.
 
 The most useful integration lessons were straightforward once visible:
